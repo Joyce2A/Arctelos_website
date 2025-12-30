@@ -24,10 +24,13 @@ const Navigation = () => {
         <div className="flex h-16 items-center justify-between">
 
           {/* Logo on left */}
-          <Link to="/" className="flex items-center gap-2">
-            <img src={arctelosLogo} alt="Arctelos Logo" className="h-8 w-auto" />
-            <span className="text-lg font-semibold text-gray-900">Arctelos</span>
-          </Link>
+          <Link href="/" className="flex items-center space-x-2">
+  <img src={arctelosLogo} alt="Arctelos Logo" className="h-16 w-auto" />
+  <div className="flex flex-col leading-tight">
+    <span className="text-2xl font-bold text-blue-900">ArcTelos</span>
+    <span className="text-l font-medium text-blue-700">Systems</span>
+  </div>
+</Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">

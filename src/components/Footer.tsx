@@ -13,9 +13,9 @@ const Footer = () => {
               <img 
                 src={arctelosLogo} 
                 alt="Arctelos Logo" 
-                className="h-8 w-auto" 
+                className="h-24 w-auto" 
               />
-              <span className="text-xl font-bold">Arctelos</span>
+              <span className="text-xl font-bold">Arctelos Systems</span>
             </div>
             <p className="text-white/80 mb-6 leading-relaxed max-w-md">
               Specialized in creating cutting-edge digital devices for healthcare and defense applications. 
@@ -135,3 +135,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

@@ -30,11 +30,11 @@ const Products = () => {
           </p>
 
           {/* Breadcrumb */}
-          <div className="inline-flex items-center gap-2 bg-pink-500 text-white text-sm px-5 py-2 rounded-full shadow-lg">
+          {/* <div className="inline-flex items-center gap-2 bg-pink-500 text-white text-sm px-5 py-2 rounded-full shadow-lg">
             <span>🏠 Home</span>
             <span>→</span>
             <span>Our Products</span>
-          </div>
+          </div> */}
         </div>
       </div>
 

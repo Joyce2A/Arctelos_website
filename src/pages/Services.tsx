@@ -29,11 +29,11 @@ const Services = () => {
           </p>
 
           {/* Breadcrumb */}
-          <div className="inline-flex items-center gap-2 bg-primary px-6 py-2 rounded-full text-white text-sm font-medium">
+          {/* <div className="inline-flex items-center gap-2 bg-primary px-6 py-2 rounded-full text-white text-sm font-medium">
             <span className="opacity-90">Home</span>
             <span className="opacity-75">→</span>
             <span>Our Services</span>
-          </div>
+          </div> */}
         </div>
       </section>
 

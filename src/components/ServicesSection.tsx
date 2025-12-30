@@ -953,9 +953,9 @@ const ServicesSection = () => {
                   {service.description}
                 </p>
 
-                <Button className="rounded-full px-6 py-3 bg-[#2563eb] hover:bg-[#1e40af]">
+                {/* <Button className="rounded-full px-6 py-3 bg-[#2563eb] hover:bg-[#1e40af]">
                   View Website
-                </Button>
+                </Button> */}
               </div>
             </motion.div>
           ))}
